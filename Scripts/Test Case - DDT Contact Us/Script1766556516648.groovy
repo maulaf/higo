@@ -35,3 +35,9 @@ WebUI.setText(findTestObject('Object Repository/input', [('name') : 'companyName
 
 WebUI.setText(findTestObject('Object Repository/input', [('name') : 'message']), message)
 
+WebUI.scrollToElement(findTestObject('Object Repository/input', [('name') : 'message']), 0)
+
+WebUI.click(findTestObject('Object Repository/button', [('type') : 'submit']))
+
+WebUI.verifyTextPresent(expected, false)
+

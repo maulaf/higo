@@ -66,7 +66,7 @@
    <testCaseLink>
       <guid>beda4dad-06e8-4a14-8796-2e72b0547a07</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Tese Case - Verify Page Contact Us</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
