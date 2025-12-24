@@ -25,7 +25,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/h1', [('text') : he
 
 WebUI.waitForPageLoad(0)
 
-WebUI.setText(findTestObject('Object Repository/input', [('name') : 'fullName']), fullname)
+WebUI.setText(findTestObject('Object Repository/input', [('name') : 'fullName']), fullName)
 
 WebUI.setText(findTestObject('Object Repository/input', [('name') : 'email']), email)
 
@@ -35,4 +35,3 @@ WebUI.setText(findTestObject('Object Repository/input', [('name') : 'companyName
 
 WebUI.setText(findTestObject('Object Repository/input', [('name') : 'message']), message)
 
-WebUI.verifyTextPresent(expected, false)

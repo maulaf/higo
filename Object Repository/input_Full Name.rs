@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input</name>
+   <name>input_Full Name</name>
    <tag></tag>
-   <elementGuidId>5001c575-bf37-426f-99ce-d0413b27316b</elementGuidId>
+   <elementGuidId>7c58fdd3-309a-41ac-ac9e-85b4c5532b92</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = '${name}']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@name = '${name}']</value>
+         <value>//*[@name = 'fullName']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -22,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>${name}</value>
-      <webElementGuid>783b3565-9e8d-48cd-b556-1603b06b8ef1</webElementGuid>
+      <value>fullName</value>
+      <webElementGuid>d6d4d8fd-6999-4881-a28e-b94742f41e83</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
