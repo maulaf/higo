@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite - Contact Us</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>70312386-f621-42b4-b2e4-c333763dc065</testSuiteGuid>
+   <testCaseLink>
+      <guid>97cdbfa4-3842-46af-800d-9cee8ff08977</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Case - DDT Contact Us</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>deda6730-8205-4c2d-8b8a-7e30fe66c367</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data - Contact Us</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>deda6730-8205-4c2d-8b8a-7e30fe66c367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fullName</value>
+         <variableId>e26f082e-6cb5-42b3-b7ba-771fb3f8eacd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>deda6730-8205-4c2d-8b8a-7e30fe66c367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>e274ffe3-b753-4b1c-bab0-7eac00bf29c2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>deda6730-8205-4c2d-8b8a-7e30fe66c367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phoneNumber</value>
+         <variableId>c6d9bcf0-750c-4240-952c-d3d1290c5982</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>deda6730-8205-4c2d-8b8a-7e30fe66c367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>companyName</value>
+         <variableId>f459a70e-0163-4baf-80a6-cbb619646699</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>deda6730-8205-4c2d-8b8a-7e30fe66c367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>message</value>
+         <variableId>f3de3e7b-8811-44b5-8e94-c68c30d1a6da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>deda6730-8205-4c2d-8b8a-7e30fe66c367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>da78100b-50e0-48d7-89b8-77ff8007ecb6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>beda4dad-06e8-4a14-8796-2e72b0547a07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Tese Case - Verify Page Contact Us</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
